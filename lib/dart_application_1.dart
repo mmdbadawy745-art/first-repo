@@ -2,8 +2,7 @@
 
 
 void main(){
- print('MyName'); // Moahmed Badawy
-   
+  
 }
 
 
@@ -48,7 +47,14 @@ switch(week.toLowerCase()){
 }
 */   
 /* question no.5
-i dont know the answer 
+List<int> numbers=[25,60,75,13,9];
+ int biggestNumber=numbers[0];
+ for(int i=0 ; i<numbers.length; i++){
+  if(biggestNumber<numbers[i]){
+    biggestNumber = numbers[i];
+  }
+ }
+ print(biggestNumber);
 */
 /*question no.6
  int counter=0;
@@ -59,15 +65,16 @@ i dont know the answer
   }
 */
 /*question no.7
-List studentNames=["Ahmed","Moahmed","Maged","Waheed","Rami"];
- 
- String studentNames="Ahmed";
- switch(studentNames.toLowerCase()){
-  case"Ahmed" : print('firstName');
-  case"Mohamed" : print('secondName');
-  case"Maged" : print('thirdName');
-  case"Waheed" : print('forthName');
-  case"Rami" : print('fifthName');
+List<String> studentNames=["Ahmed","Mohamed","Maged","Waheed","Rami"];
+ for(int i=0 ; i<studentNames.length; i++ ){
+  String name=studentNames[i];
+  switch(name.toLowerCase()){
+  case"ahmed" : print('firstName');
+  case"mohamed" : print('secondName');
+  case"maged" : print('thirdName');
+  case"waheed" : print('forthName');
+  case"rami" : print('fifthName');
   default: print('error');
+ }
  }
  */ 
